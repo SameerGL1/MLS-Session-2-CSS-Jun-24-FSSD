@@ -1,0 +1,111 @@
+3 Hrs 
+
+first hour -> discussing the concepts of CSS 
+
+Remaining two hours -> spend on solvinng the problem Statement 
+
+
+
+HTML - Mark up language 
+     - Used for displaying the information, text, links, images, ect on web pages 
+
+CSS - Cascading Style Sheets 
+    - Background property used to set the background of the HTML Elements 
+
+    - External Styling - use in todays session 
+
+        creating a seperate CSS file and adding all the properties to that file 
+        seperate css file will be linked with HTML 
+
+        HTML tag - Head 
+
+    - Syntax for External Styling 
+            <head> 
+                <link rel="stylesheet" type="text/css" href="filename.css">
+            </head> 
+
+    - Internal Styling 
+        inside my HTML code we will use the style tag and in between those style tag all 
+        the styling code will be mentioned 
+
+    - Syntax 
+        <head>
+            <style>
+                    css code will be written
+            </style>
+        </head>
+
+    - Example of Internal Styling 
+        <head>
+            <style>
+                    .card-body{
+                                 color: blue;
+                                 font-size: 14px;
+                              }
+                    .card-title{
+                                 font-size: bold; 
+                                 color: red;
+                               }
+            </style>
+        </head>
+
+    - Inline Styling    
+        refers to the practice of applying CSS Style directly to the indivisual HTML elements 
+
+    - Example of Inline Styling 
+
+        <p style=" color:blue; 
+                   font-size:20px; 
+                   font-type: bold;
+                  " >
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi 
+            nam impedit adipisci? Ipsa similique eos quibusdam! Porro ad 
+            minus laborum, debitis quibusdam fugiat veniam excepturi id 
+            magni, ullam molestias expedita.
+        </p>
+
+
+
+CSS Selector 
+    it is used to select the HTML elements for styling 
+
+    - Type Selector 
+        selects elements by their HTML tag name 
+    
+        p { 
+            // css styling properties 
+        }
+
+        a { 
+            // css styling properties 
+        }
+
+
+    - ID Selector 
+        It selects the elements for styling using the unique ID attribute 
+        <div id="header"> 
+
+        </div> 
+
+        #header{
+            // css styling properties
+        }
+
+    - Class Selector 
+        It selects the elements for styling using the unique class name attribute 
+        <div class="container"> 
+
+        </div> 
+
+        .container{
+            // css styling properties
+        }
+
+    - Attribute Selector 
+        <input type="text" required>
+
+        [required] {
+                        // css styling properties
+                   }
+
+
